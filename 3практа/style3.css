@@ -1,0 +1,18 @@
+table{
+    border: 3px solid;
+    border-spacing: 0px;
+    
+}
+th{
+    font-weight: normal;
+    border-bottom: 2px solid;
+    border-top: 2px solid;
+    border-left: 2px solid;
+    border-right: 2px solid;
+    background-image: url(победа.gif);
+    background-position: center;
+    background-size: 1px;
+}
+#n{
+    width: 550px;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'style/style.css'%}">
+    <meta charset="UTF-8">
+    <link rel="icon" href="https://cdn.icon-icons.com/icons2/1760/PNG/96/4105938-account-card-id-identification-identity-card-profile-user-profile_113929.png" type="image/svg">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Профиль</title>
+</head>
+<body id='str5' onpageshow="jt()" ondblclick="bdlclick()">
+    {%include 'includes/pol.html'%}
+    <div id="profile" >
+        <div id="imagediv">
+        </div>
+        <div id="txt">
+        </div>
+    </div>
+    <div id="newProfile">
+        <div id="blockWithImage">
+        </div>
+        <div id="information">
+        </div>
+    </div>
+    <script src="{% static 'java/java.js'%}"></script>
+</body>
+</html>

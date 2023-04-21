@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'style/style.css'%}">
+    <link rel="icon" href="https://img.icons8.com/clouds/256/blue-pointer.png" type="image/svg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Авторизация</title>
+</head>
+<body id="str1" ondblclick="bdlclick()">
+    <div id="s1">
+        <div class="image">
+            <img src="https://t4.ftcdn.net/jpg/00/79/37/43/360_F_79374314_96Jf981bO1aIPmo28OPTJ8buK7jZMDEL.jpg" width="50%" height="65%" >
+        </div>
+        <p id="auth_text_1">Sign In</p>
+        <div class="log_pass">
+            <div class="login">
+                <input id="input_login" type="text" placeholder="Login">
+            </div>
+            <div class="password">
+                <input id="input_password" type="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="buttons">
+            <a href="str2"><input id="bt1" class="button" type="button" value="Sign in"></a>
+            <input id="bt2" class="button" type="button" value="Sign up" onclick="g()">
+        </div>
+    </div>
+    <div id="s2">
+        <div class="image">
+            <img src="https://t4.ftcdn.net/jpg/00/79/37/43/360_F_79374314_96Jf981bO1aIPmo28OPTJ8buK7jZMDEL.jpg" width="50%" height="65%" >
+        </div>
+        <p id="auth_text_1">Sign Up</p>
+        <div class="log_pass">
+            <div class="login">
+                <center><input id="input_login" type="text" placeholder="Login"></center>
+            </div>
+            <div class="password">
+                <center><input id="input_password" type="password" placeholder="Password"></center>
+            </div>
+        </div>
+        <div class="buttons">
+            <input class="button" type="button" value="Sign in" onclick="g()">
+            <a href="str2"><input class="button" type="button" value="Sign up"></a>
+        </div>
+    </div> 
+    <script src="{% static 'java/java.js'%}"></script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ggwp</title>
+</head>
+<body>
+    <input type=button id="show1" value="Задание №1">
+    <input type=button id="show2" value="Задание №2">
+    <input type=button id="show3" value="Задание №3">
+    <div id="n1" style="font-family: 'Times New Roman'; font-size: 14px; width: 250px;">
+        <pre>
+        Я к вам пишу — чего же боле?
+        Что я могу еще сказать?
+        Теперь, я знаю, в вашей воле
+        Меня презреньем наказать.
+        Но вы, к моей несчастной доле
+        Хоть каплю жалости храня,
+        Вы не оставите меня.
+        Сначала я молчать хотела;
+        Поверьте: моего стыда
+        Вы не узнали б никогда,
+        Когда б надежду я имела
+        Хоть редко, хоть в неделю раз
+
+        В деревне нашей видеть вас,
+        Чтоб только слышать ваши речи,
+        Вам слово молвить, и потом
+        Все думать, думать об одном
+        И день и ночь до новой встречи.
+        Но, говорят, вы нелюдим;
+        В глуши, в деревне всё вам скучно,
+        А мы... ничем мы не блестим,
+        Хоть вам и рады простодушно.
+        Зачем вы посетили нас?
+        В глуши забытого селенья
+        Я никогда не знала б вас,
+        Не знала б горького мученья.
+        Души неопытной волненья
+        Смирив со временем (как знать?),
+        По сердцу я нашла бы друга,
+        Была бы верная супруга
+        И добродетельная мать.
+
+        ...</pre>
+    </div>
+    <div id="n2" style="font-family: 'Times New Roman'; font-size: 14px; width: 600px;">
+        <pre><h1><i><u><b><center>Объявление.</center></b></u></i></h1>
+            <span style="color:red; line-height: 1.5;">Сегодня, в 14<sup><u>00</u></sup></span> приглашаем <u>всех</u> слушателей «<i><span style="color:rgb(41, 135, 197);">Российского экономического университета
+            им. Г.В. Плеханова</span></i>» посетить вебинар по программированию
+            <center><big><big><b><span style="color: rgb(248, 225, 20);">«Массивы и типы данных»</b><span style="font-weight: normal; color: black;">.</span></span></big></big><br>
+            <i><span style="color: green; ">На вебинаре будут рассмотрены базовые алгоритмические структуры.</i></span>
+            <span style="color: red; line-height: 2.5">Организаторы будут рады вас видеть на вебинаре.</center></span>
+            <i><b><big><span style="margin-left: 350px;">Организаторы выставки.</big></b></i></span></pre>
+    </div>
+    <div id="n3"style="font-family: 'Times New Roman';  font-size: 14px; line-height: 1.5; width: 600px;">
+        <pre>
+            <span style="color: red;">Дано:</span>АА<small style="font-family: Courier New;">1</small>А<small style="font-family: Courier New">2</small> – прямоугольный треугольник, АА<small style="font-family: Courier New">1</small> – гипотенуза, А<small style="font-family: Courier New">1</small>А<small style="font-family: Courier New">2</small>=6см, АА<small style="font-family: Courier New">1</small>=10см.
+            <span style="color: red;">Найти: </span>АА<small style="font-family: Courier New">2</small>.
+            <span style="color:rgb(41, 135, 197);">Решение:</span>
+            С<sup style="font-family: Courier New;">2</sup>=а<sup style="font-family: Courier New;">2</sup>+b<sup style="font-family: Courier New;">2</sup> – по теореме Пифагора
+            10<sup style="font-family: Courier New;">2</sup>=6<sup style="font-family: Courier New;">2</sup>+(АА<small style="font-family: Courier New">2</small>)<sup style="font-family: Courier New;">2</sup>
+            (АА<small style="font-family: Courier New">2</small>)<sup style="font-family: Courier New;">2</sup>=100-36=64, отсюда АА<small style="font-family: Courier New">2</small>=8 см.
+            <span style="color:rgb(41, 135, 197)">Ответ:</span> 8 см.</pre>
+    </div>
+</body>
+</html>

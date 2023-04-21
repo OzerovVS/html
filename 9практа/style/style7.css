@@ -1,0 +1,431 @@
+input{
+    cursor: pointer;
+}
+#n1{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+body{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: linear-gradient(to right, rgba(9, 5, 47, .85) 0%, rgba(49, 29, 94, .85) 100%), url(МПТ.png);
+    justify-content: space-between;
+}
+#sslka{
+    cursor: pointer;
+    color: aliceblue;
+    margin-bottom: 1%;
+    font-size: 20px;
+    flex: 1; 
+}
+.back{
+    box-shadow: 8px 8px 5px #444;
+    color: white;
+    margin-top: 10%;
+    margin: 2%;
+    width: 66%;
+    padding: 2%;
+    background-image: linear-gradient(180deg, #bdb6b6, #706e6e 40%, #967f7f);
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    margin-left: 15%;   
+}
+.back:hover{
+    background: rgb(89, 255, 0) ;
+    color: black ;
+    filter: drop-shadow(5px 5px 5px rgb(89, 255, 0)) ;
+}
+#sslka:hover, li:hover, h5:hover{
+    filter: drop-shadow(5px 5px 5px rgb(89, 255, 0))
+}
+
+#imga{
+    margin-left: 94%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#setting{
+    z-index: 2;
+    border: 1px solid white;
+    border-radius: 20px;
+    color: white;
+    margin-top: 6%; 
+    margin-left: 78%;
+    margin-right: 10%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url(https://sun9-88.userapi.com/c857528/v857528304/c07c4/B9Rm6rpS5nM.jpg);
+    background-position: center;
+    height: 31%;
+    width: 20%;
+    display: none;
+    background-size: cover;
+    position: fixed;
+}
+#helpa{
+    cursor: pointer;
+    background-image: linear-gradient(180deg, #bdb6b6, #706e6e 40%, #967f7f);
+}
+#alll{
+    width: 60%;
+    order:-1;
+    display: none;
+}
+#okno{
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    opacity: .9;
+    background: white;
+    width: 100%;
+    height: 100%
+}
+#home{
+    margin-left: 70%;
+    cursor: pointer;
+}
+#dl{
+    color: white;
+}
+#Text_page{
+    padding: 5px;
+    line-height: 1.5;
+    border-radius: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 90%;
+    height: 50%;
+    background-image: linear-gradient(to bottom, rgb(131, 89, 27), rgb(48, 11, 11) 100%);
+    margin-right: 12px;
+    text-align: center;
+}
+#reznya{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: linear-gradient(to bottom, rgb(170, 101, 101) 40%, rgb(59, 14, 14) 100%);
+    margin-bottom: 2%;
+    width: 40%;
+    height: 30%;
+    box-shadow: 0 2vh 4vh rgba(204, 146, 146, 0.2);
+}
+#port{
+    text-align: center;
+    flex: 2;
+    font-family: 'Times New Roman';
+    color: aliceblue;
+}
+#dops{
+    background-image: linear-gradient(45deg, rgb(54, 51, 51) 30%, rgb(15, 7, 7) 60%);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+iframe{
+    margin: 1%;
+    width: 50%;
+    height: 60%;
+}
+#text{
+    font-size: 16px;
+    line-height: 2;
+    margin-left: 5%;
+    color:rgb(170, 101, 101)  
+}
+a{
+    color: white;
+}
+ul{
+    color: white;
+}
+#n2{
+    width: 100%;
+    display: none;
+    text-align: center;
+    color: white;
+    flex-wrap: wrap;
+}
+#ttxt{
+    width: 100%;
+    height: 100%;
+    line-height: 1.5;
+}
+h5{
+    cursor: pointer;
+}
+#Text_page {
+    position: relative;
+  }
+  .ribbon1 {
+    position: absolute;
+    top: -6.1px;
+    right: 10px;
+  }
+  .ribbon1 span {
+    position: relative;
+    display: block;
+    text-align: center;
+    background: #F8463F;
+    line-height: 1;
+    padding: 12px 8px 10px;
+    border-top-right-radius: 8px;
+    width: 70%;
+  }
+  .ribbon1 span:before, .ribbon1 span:after {
+    position: absolute;
+    content: "";
+  }
+  .ribbon1 span:before {
+   height: 12%;
+   width: 12%;
+   left: -4%;
+   top: 0;
+   background: #F8463F;
+  }
+  .ribbon1 span:after {
+   height: 12%;
+   width: 7%;
+   left: -7%;
+   top: 0;
+   border-radius: 8px 8px 0 0;
+   background: #C02031;
+  }
+@media (min-width: 150px) {
+    #reznya {
+        width: 50%
+    }
+    b{
+        font-size: 1px
+    }
+    #n2{
+        font-size: 1px;
+    }
+    
+}
+@media (min-width: 1400px) {
+    #Text_page{
+        font-size: 20px;
+    }
+    
+}
+@media (min-width: 1900px) {
+    #Text_page{
+        font-size: 50px;
+    }
+    ul{
+        font-size: 60px;
+    }
+    a{
+        font-size: 60px;
+    }
+    #reznya{
+        font-size: 60px;
+        width: 60%;
+    }
+    #sslka{
+        font-size: 60px;
+    }
+    #ttxt{
+        font-size: 30px
+    }
+}
+@media (max-width: 300px) {
+    .back{
+        margin-left: 10%;
+        padding: 0;
+        width: 79%;
+    }
+    #setting{
+        margin-right: 30%;
+        height: 70%;
+        width: 40%;
+    }
+    #ttxt{
+        width: 70%;
+    }
+    h1{
+        font-size: 1px;
+    }
+    a{
+        font-size: 5px
+    }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+    .back{
+        margin-left: 15%;
+        padding: 0;
+        width: 70%;
+    }
+    #setting{
+        margin-right: 30%;
+        height: 54%;
+        width: 40%;
+    }
+    #ttxt{
+        font-size: 5px
+    }
+    a{
+        font-size: 5px
+    }
+    #reznya{
+        width: 60%;
+    }
+}
+@media (min-width: 400px) and (max-width: 500px) {
+    .back{
+        margin-left: 10%;
+        padding: 0;
+        width: 79%
+    }
+    #setting{
+        height: 40%;
+        width: 25%;
+    }
+}
+@media (min-width: 500px) and (max-width: 600px) {
+    .back{
+        margin-left: 10%;
+        padding: 0;
+        width: 79%
+    }
+    #setting{
+        height: 35%;
+        width: 25%;
+    }
+}
+@media (min-width: 600px) and (max-width: 700px) {
+    .back{
+        margin-left: 10%;
+        padding: 0;
+        width: 79%
+    }
+    #setting{
+        height: 30%;
+        width: 20%;
+    }
+    #ttxt{
+        font-size: 10px
+    }
+    a{
+        font-size: 10px
+    }
+}
+@media (min-width: 1000px) and (max-width: 1300px){
+    .back{
+        margin-left: 10%;
+        width: 79%
+    }
+    #setting{
+        height: 27%;
+        width: 20%;
+    }
+}
+@media (min-width: 1300px)  and (max-width: 1600px){
+    .back{
+        font-size: 15px;
+        margin-left: 10%;
+        width: 79%
+    }
+    #setting{
+        height: 27%;
+        width: 20%;
+    }
+    #ttxt{
+        font-size: 30px
+    }
+    a{
+        font-size: 30px
+    }
+    ul{
+        font-size: 30px;
+    }
+    b{
+        font-size: 20px;
+    }
+}
+@media (min-width: 1600px) and (max-width: 2600px){
+    .back{
+        font-size: 20px;
+        margin-left: 10%;
+        width: 79%
+    }
+    #setting{
+        height: 27%;
+        width: 20%;
+    }
+    #Text_page{
+        font-size: 35px
+    }
+    b{
+        font-size: 25px;
+    }
+    #ttxt{
+        font-size: 40px
+    }
+    a{
+        font-size: 50px
+    }
+    ul{
+        font-size: 50px;
+    }
+}
+@media (min-width: 2600px) and (max-width: 3900px){
+    .back{
+        font-size: 25px;
+        margin-left: 10%;
+        width: 79%
+    }
+    #setting{
+        height: 27%;
+        width: 20%;
+    }
+    a{
+        font-size: 70px
+    }
+    ul{
+        font-size: 70px;
+    }
+    #ttxt{
+        font-size: 60px;
+    }
+}
+@media (min-width: 3900px){
+    .back{
+        font-size: 40px;
+        margin-left: 10%;
+        width: 79%
+    }
+    #setting{
+        height: 27%;
+        width: 20%;
+        border-radius: 40px;
+    }
+    #Text_page{
+        font-size: 70px;
+    }
+    b{
+        font-size: 60px;
+    }
+    .ribbon1 span {
+        font-size: 50px;
+    }
+    #reznya{
+        font-size: 35px;
+    }
+    ul{
+        font-size: 100px;
+    }
+    a{
+        font-size: 100px;
+    }
+    #ttxt{
+        font-size: 80px;
+    }
+}
