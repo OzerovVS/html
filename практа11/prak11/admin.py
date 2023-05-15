@@ -15,7 +15,7 @@ class ClassificationLook(admin.ModelAdmin):
 class UchzazLook(admin.ModelAdmin):
     list_display=('ID', 'Title', 'Classification')
 
-admin.site.register(User, UserLook)
+admin.site.register(User)
 admin.site.register(Teacher)
 admin.site.register(Item)
 admin.site.register(Group)

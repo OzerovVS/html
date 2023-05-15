@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+	background-image: linear-gradient(300deg, #221316, #a12f92, #83457b, rgb(182, 42, 18));
+	background-size: 400% 400%;
+	animation: al 10s ease infinite;
+}
+body div{
+    margin-left: 2%;
+    text-align: center;
+    color: #fff;
+    margin-top: 2%;
+}
+
+body div div{
+    border: 1px solid black;
+    border-radius: 15%;
+    background: linear-gradient(180deg, #641e39, #98749b, #ddf810, #8f4ff4);
+	background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+ 
+@keyframes gradient {
+	0% {
+        color: white;
+		background-position: 50% 0%;
+	}
+	50% {
+        color: black;
+        background-position: 50% 100%;
+	}
+	100% {
+        color: white;
+        background-position: 50% 0%;
+	}
+}
+p{
+    text-align: left;
+    margin: 10%;
+    width: 200px;
+    height: 20px;
+}
+@keyframes al {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
