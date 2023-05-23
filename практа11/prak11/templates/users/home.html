@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'style/style.css'%}">
+    <link rel="icon" href="https://img.icons8.com/ios-filled/1x/home.png" type="image/svg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+</head>
+<body onpageshow="jh()" id="str2" ondblclick="bdlclick()">
+    {%include 'includes/pol.html'%}
+    <div id="rp"><Label id="weekDay"></Label>
+        <div id="rp_1">
+            <label id="m1"></label>
+            <label>8:30-10:00</label>
+        </div>
+        <div id="rp_2">
+            <label id="m2"></label>
+            <label>10:10-11:40</label>
+        </div>
+        <div id="rp_3">
+            <label id="m3"></label>
+            <label>12:00-13:30</label>
+        </div>
+        <div id="rp_4">
+            <label id="m4"></label>
+            <label>13:50-15:20</label>
+        </div>
+        <div id="rp_5">
+            <label id="m5"></label>
+            <label>15:30-17:00</label>
+        </div>
+        <div id="rp_6">
+            <label id="m6"></label>
+            <label>17:10-18:40</label>
+        </div>
+    </div>
+    <script src="{% static 'java/java.js'%}"></script>
+</body>
+</html>

@@ -7,7 +7,7 @@ var ch = 0
 var anim = ['ws', 'sw']
 var mesto = [ 'm1', 'm2', 'm3', 'm4', 'm5', 'm6']
 var title = ['ФИО', "Возраст", "Группа", "Должность", "Учебное заведение"]
-var user = ["Озеров Виталий",'17 лет', 'П50-7-21','Студент','Московский приборостроительный техникум']
+var user = ["",'17 лет', 'П50-7-21','Студент','Московский приборостроительный техникум']
 var imageurl = 'https://avatars.mds.yandex.net/i?id=c92d12034e1018467c670d6771d15fddb54159b0-9235953-images-thumbs&n=13'
 function g(){
     if (document.getElementById("s2").style.display != "flex"){
@@ -24,7 +24,6 @@ function baza(){
     var start = new Date()
     var finish = new Date(2025, 6,30)
     var rezult = (finish-start)/(1000*60*60*24)
-    document.getElementById('name').textContent = user[0]
     document.getElementById('group').textContent = "Группа: " + user[2]
     document.getElementById('date').textContent = "До конца обучения: " + parseInt(rezult - 30.0)
 }

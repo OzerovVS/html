@@ -23,12 +23,23 @@
         </div>
     </div>
     <div id="infa" onmouseover="v('l4')" onmouseout="o('l4')">
-        <label id="name"></label>
+        {% if user.is_authenticated %}
+        <label id="names">{{user.username}}</label>
+        {%else%}
+        <label id="names">Вы не авторизированы</label>
+        {%endif%}
         <label id="group"></label>
         <label id="date"></label>
-        <ul id="l4">
-            <a href="str5"><li>Профиль</li></a>
-            <a href="/"><li>Выйти</li></a>
-        </ul>
+        {% if user.is_authenticated %}
+            <ul id="l4">
+                <a href="str5"><li>Профиль</li></a>
+                <a href="{% url 'logout' %}"><li>Выйти</li></a>
+            </ul>
+            {%else %}
+            <ul id="l4">
+                <a href="{% url 'login'%}"><li>Авторизцироваться</li></a>
+                <a href="{% url 'signup'%}"><li>Зарегестрироваться</li></a>
+            </ul>
+            {% endif %}
     </div>
 </div>

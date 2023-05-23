@@ -23,9 +23,6 @@ html, body {
     align-items: center;
     border-radius: 5px;
 }
-#s2{
-    display: none;
-}
 .image{
     display: flex;
     justify-content: center;
@@ -54,7 +51,7 @@ html, body {
     justify-content: space-evenly;
     align-items: center;
 }
-#input_login, #input_password{
+#id_username, #id_password1, #id_passwrod2{
     margin-bottom: 10%;
 }
 .buttons{
@@ -63,7 +60,7 @@ html, body {
     align-items: center;
     justify-content: space-evenly;
 }
-input#input_login, input#input_password{
+input#id_username, input#id_password1,input#id_password2{
     font-size: 20px;
     height: 10%;
     width: 100%;
@@ -346,10 +343,10 @@ li{
 #l4 li{
     margin-left: -20%;
     font-size: 14px;
-    background: #5c642d;
+    background: #8b9b33;
     border: solid 1px;
     text-align: center;
-    width: 200%;
+    width: 100%;
     color: white;
     cursor: pointer;
 }

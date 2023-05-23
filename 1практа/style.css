@@ -14,5 +14,9 @@ input#show2:focus ~ div#n2{
 input#show3:focus ~ div#n3{
     display: block;
 }
+body{
+    color: yellow;
+    background-color: white;
+}
 
 

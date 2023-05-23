@@ -8,6 +8,7 @@
     <title>ggwp</title>
 </head>
 <body>
+    ПРИВЕТ
     <input type=button id="show1" value="Задание №1">
     <input type=button id="show2" value="Задание №2">
     <input type=button id="show3" value="Задание №3">
