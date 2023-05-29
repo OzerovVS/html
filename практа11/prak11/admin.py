@@ -1,23 +1,23 @@
 from django.contrib import admin
-from .models import User, Teacher, Item, Group, Classification, UchZaz
+from .models import User, Item, Group, Classification, UchZaz, Role
 
 # Register your models here.
 class UserLook(admin.ModelAdmin):
-    list_display=('Id', 'Name', 'Lastname')
-class TeacherLook(admin.ModelAdmin):
-    list_display=('id', 'Name', 'Age')
+    list_display=('id', 'name', 'lastname', 'role')
 class ItemLook(admin.ModelAdmin):
-    list_display=('id', 'Title', 'Teacher')
+    list_display=('id', 'title', 'teacher')
 class GroupLook(admin.ModelAdmin):
-    list_display=('id', 'Title', 'Item', 'User')
+    list_display=('id', 'title', 'item', 'user')
 class ClassificationLook(admin.ModelAdmin):
-    list_display=('id', 'Title', 'Group')
+    list_display=('id', 'title', 'group')
 class UchzazLook(admin.ModelAdmin):
-    list_display=('ID', 'Title', 'Classification')
+    list_display=('id', 'title', 'classification')
+class RoleLook(admin.ModelAdmin):
+    list_display=('id', 'title')
 
-admin.site.register(User)
-admin.site.register(Teacher)
-admin.site.register(Item)
-admin.site.register(Group)
-admin.site.register(Classification)
-admin.site.register(UchZaz)
+admin.site.register(User,UserLook)
+admin.site.register(Item, ItemLook )
+admin.site.register(Group, GroupLook)
+admin.site.register(Classification, ClassificationLook)
+admin.site.register(UchZaz, UchzazLook)
+admin.site.register(Role, RoleLook)

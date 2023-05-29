@@ -31,18 +31,18 @@ function baza(){
 function jh(){  
     ch = rnd(week.length)
     baza()
-    document.getElementById('weekDay').textContent = week[ch]
-    for (var i = 0; i< mesto.length; i++){
-        document.getElementById(mesto[i]).textContent = item1[rnd(item1.length)]
-    }
-    for (var i = 0; i< mesto.length; i++){
-        if (document.getElementById(mesto[i]).textContent == 'ПРАКТИКА'){
-            for (var j = 0; j< mesto.length; j++){
-                document.getElementById(mesto[j]).textContent = 'ПРАКТИКА'
-            }
-            break
-        }
-    }
+    // document.getElementById('weekDay').textContent = week[ch]
+    // for (var i = 0; i< mesto.length; i++){
+    //     document.getElementById(mesto[i]).textContent = item1[rnd(item1.length)]
+    // }
+    // for (var i = 0; i< mesto.length; i++){
+    //     if (document.getElementById(mesto[i]).textContent == 'ПРАКТИКА'){
+    //         for (var j = 0; j< mesto.length; j++){
+    //             document.getElementById(mesto[j]).textContent = 'ПРАКТИКА'
+    //         }
+    //         break
+    //     }
+    // }
 }
 function v(id){
     document.getElementById(id).style.display = "block"

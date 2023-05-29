@@ -2,18 +2,18 @@ from django.db import models
 
 # Create your models here.
 
+class Role(models.Model):
+    id = models.BigAutoField(primary_key=True)
+    title = models.CharField(max_length=200)
 class User(models.Model):
     id = models.BigAutoField(primary_key=True)
     name = models.CharField(max_length=200)
     lastname = models.CharField(max_length=200)
-class Teacher(models.Model):
-    id = models.BigAutoField(primary_key=True)
-    name = models.CharField(max_length=200)
-    age = models.CharField(max_length=200)
+    role = models.ForeignKey(Role, max_length=200, on_delete=models.CASCADE)
 class Item(models.Model):
     id = models.BigAutoField(primary_key=True)
     title = models.CharField(max_length=200)
-    teacher = models.ForeignKey(Teacher, on_delete=models.CASCADE)
+    teacher = models.ForeignKey(User, on_delete=models.CASCADE)
 class Group(models.Model):
     id = models.BigAutoField(primary_key=True)
     title = models.CharField(max_length=200)

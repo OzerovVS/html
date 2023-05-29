@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {%load static%}
+    <link rel="stylesheet" href="{%static 'style/style.css'%}">
+    <link rel="icon" href="https://img.icons8.com/clouds/256/blue-pointer.png" type="image/svg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Изменить</title>
+</head>
+<body id="str1" ondblclick="bdlclick()">
+    <form method="post">
+        {% csrf_token %}
+    <div id="s1">
+        <div class="image">
+            <img src="https://t4.ftcdn.net/jpg/00/79/37/43/360_F_79374314_96Jf981bO1aIPmo28OPTJ8buK7jZMDEL.jpg" width="50%" height="65%" >
+        </div>
+        <p id="auth_text_1">Update</p>
+        <div class="log_pass">
+            {{form.as_p}}
+        </div>
+        <div class="buttons">
+            <input id="bt1" class="button" type="submit" value="update">
+        </div>
+    </div>
+</body>
+</html>

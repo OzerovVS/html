@@ -60,7 +60,7 @@ html, body {
     align-items: center;
     justify-content: space-evenly;
 }
-input#id_username, input#id_password1,input#id_password2{
+input#id_username, input#id_password1,input#id_password2, input#id_password{
     font-size: 20px;
     height: 10%;
     width: 100%;
